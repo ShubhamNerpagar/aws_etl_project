@@ -13,6 +13,7 @@ S3_OUTPUT_PATH = f"s3://{BUCKET_NAME}/output/"
 METADATA_PATH = f"s3://{BUCKET_NAME}/my_etl_package/metadata.json"
 
 def main():
+    """Main ETL script."""
     df_transformed = transform_data(BUCKET_NAME, METADATA_PATH, glueContext)
     load_to_glue(df_transformed, DATABASE_NAME, TABLE_NAME, S3_OUTPUT_PATH, glueContext)
 
