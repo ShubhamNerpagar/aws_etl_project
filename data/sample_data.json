@@ -1,0 +1,7 @@
+[
+    {"id": 1, "name": "Alice", "age": 25, "city": "New York", "created_date": "2024-01-15"},
+    {"id": 2, "name": "Bob", "age": "invalid_age", "city": "Los Angeles", "created_date": "2024/12/31"},
+    {"id": 3, "name": "Charlie", "age": 30, "city": "Chicago", "created_date": "2023-11-15"},
+    {"id": 4, "name": "David", "age": 40, "city": "Houston", "created_date": "15-01-2024"}
+  ]
+  

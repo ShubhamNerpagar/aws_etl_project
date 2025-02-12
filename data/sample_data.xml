@@ -1,0 +1,23 @@
+<records>
+    <record>
+        <id>5</id>
+        <name>Emma</name>
+        <age>35</age>
+        <city>San Francisco</city>
+        <created_date>2022-06-18</created_date>
+    </record>
+    <record>
+        <id>6</id>
+        <name>Frank</name>
+        <age>invalid_age</age>
+        <city>Miami</city>
+        <created_date>2024/11/30</created_date>
+    </record>
+    <record>
+        <id>7</id>
+        <name>Grace</name>
+        <age>29</age>
+        <city>Boston</city>
+        <created_date>2023-07-22</created_date>
+    </record>
+</records>
